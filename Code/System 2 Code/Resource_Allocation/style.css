@@ -1,0 +1,128 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:Arial;
+}
+
+@font-face {
+    font-family: 'Social';
+    src: url('./fonts/socialicons-webfont.eot');
+    src: url('./fonts/socialicons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/socialicons-webfont.woff') format('woff'),
+         url('./fonts/socialicons-webfont.ttf') format('truetype'),
+         url('./fonts/socialicons-webfont.svg#SocialIconsMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#content {
+	width:960px;
+	
+	
+	
+}
+
+#content .menu {
+	text-align:left;
+	
+}
+
+#content .menu .primary-menu {
+	list-style-type:none;
+	position:relative;
+}
+
+#content .menu .primary-menu li {
+	display:inline;
+	text-align:center;
+	margin:0px 10px;
+	position:relative;
+}
+
+#content .menu .primary-menu li a {
+	position:relative;
+	text-decoration:none;
+	font-family:'Social' !important;
+	font-size:25px;
+	
+	display:inline-block;
+	width:60px;
+	height:60px;
+	
+	
+	
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	-ms-border-radius:100px;
+	-khtml-border-radius:100px;
+	border-radius:100px;
+	
+	
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-o-transition:all 1s;
+	-ms-transition:all 1s;
+	-khtml-transition:all 1s;
+	transition:all 1s;
+	
+	behavior: url(pie/PIE.htc); /* CSS3 Fix for Internet Explorer */
+}
+
+
+
+#content .menu .primary-menu li a:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-khtml-transform: rotate(360deg);
+	transform: rotate(360deg);
+	
+	behavior: url(pie/PIE.htc); /* CSS3 Fix for Internet Explorer */
+}
+
+#content .menu .primary-menu li span.social-span {
+	font-family:Arial;
+	font-size:11px;
+	position:absolute;
+	width:100px;
+	top:45px;
+	left:-45%;
+	background:#ffffff;
+	padding:5px;
+	border:1px solid #B8B8B8;
+	opacity:0;
+	
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	-khtml-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-transition:opacity 1s ease-in-out;
+	-moz-transition:opacity 1s ease-in-out;
+	-o-transition:opacity 1s ease-in-out;
+	-ms-transition:opacity 1s ease-in-out;
+	-khtml-transition:opacity: 1s ease-in-out;
+	transition:opacity 1s ease-in-out;
+	
+	behavior: url(pie/PIE.htc); /* CSS3 Fix for Internet Explorer */
+}
+
+#content .menu .primary-menu li a:hover ~ span.social-span {
+	opacity:1;
+}
+
+#content .menu .primary-menu li span.social-span:after {
+	content:"";
+	position:absolute;
+	border-color:#fff transparent;
+	display:block;
+	top:-7px;
+	left:40%;
+	width:0;
+	border-width:0 7px 7px;
+	border-style:solid;
+}

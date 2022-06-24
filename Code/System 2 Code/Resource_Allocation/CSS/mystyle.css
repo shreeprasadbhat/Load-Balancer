@@ -1,0 +1,62 @@
+#rounded-corners 
+{
+	 
+     -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+hr {
+  border-top: 1px dotted #f00;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width:50%;
+}
+#myclass 
+{
+   background: url("images/line.png")  repeat-x;
+  
+}
+h1
+{
+	border-bottom: thin #CDDADE 2px dotted;	
+}
+
+.menu {
+position:absolute;
+top:50%;
+left:50px;
+margin-top:-140px;
+}
+  
+.menu ul li a {
+display:block;
+text-decoration:none;
+font-family:'PT Sans Narrow', sans-serif;
+font-size:30px;
+position:relative;
+height:44px;
+color:#eee;
+}
+  
+.menu ul li a span {
+position:absolute;
+top:0;
+left:0;
+-webkit-transition:all .5s ease;
+-moz-transition:all .5s ease;
+-o-transition:all .5s ease;
+-ms-transition:all .5s ease;
+transition:all .5s ease;
+/* add the transition to all properties. */
+}
+  
+.menu .shadow {
+text-shadow: 0 0 4px #fff;
+}
+  
+.menu .blur {
+color:#2b2b2b;
+text-shadow:0 0 4px #2b2b2b;
+opacity:.6;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+
+		<servlet-name>Flames</servlet-name>
+		<servlet-class>com.action.Flames</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+
+		<servlet-name>Flames</servlet-name>
+		<url-pattern>/Flames</url-pattern>
+
+	</servlet-mapping>
+</web-app>

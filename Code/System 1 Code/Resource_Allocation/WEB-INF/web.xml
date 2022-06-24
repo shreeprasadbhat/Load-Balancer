@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>	
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.admin.action.AdminLogin</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>AddServer</servlet-name>
+		<servlet-class>com.admin.action.AddServer</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddServer</servlet-name>
+		<url-pattern>/AddServer</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>DeleteServer</servlet-name>
+		<servlet-class>com.admin.action.DeleteServer</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteServer</servlet-name>
+		<url-pattern>/DeleteServer</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>EditServer</servlet-name>
+		<servlet-class>com.admin.action.EditServer</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditServer</servlet-name>
+		<url-pattern>/EditServer</url-pattern>	
+	</servlet-mapping>
+	
+	<!--Related to Application-->
+	
+	<!--Related to Application-->
+	
+	<servlet>	
+		<servlet-name>AddApplication</servlet-name>
+		<servlet-class>com.admin.action.AddApplication</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddApplication</servlet-name>
+		<url-pattern>/AddApplication</url-pattern>	
+	</servlet-mapping>
+	
+	
+	
+	<servlet>	
+		<servlet-name>EditApplication</servlet-name>
+		<servlet-class>com.admin.action.EditApplication</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditApplication</servlet-name>
+		<url-pattern>/EditApplication</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>DeleteApplication</servlet-name>
+		<servlet-class>com.admin.action.DeleteApplication</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteApplication</servlet-name>
+		<url-pattern>/DeleteApplication</url-pattern>	
+	</servlet-mapping>
+	
+	
+	<servlet>	
+		<servlet-name>DeployServer</servlet-name>
+		<servlet-class>com.admin.action.DeployServer</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeployServer</servlet-name>
+		<url-pattern>/DeployServer</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>DeleteDServer</servlet-name>
+		<servlet-class>com.admin.action.DeleteDServer</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteDServer</servlet-name>
+		<url-pattern>/DeleteDServer</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>GetRequest</servlet-name>
+		<servlet-class>com.admin.action.GetRequest</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetRequest</servlet-name>
+		<url-pattern>/GetRequest</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>	
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.admin.action.ChangePass</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>	
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+
+		<servlet-name>Numerology</servlet-name>
+		<servlet-class>com.action.Numerology</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+
+		<servlet-name>Numerology</servlet-name>
+		<url-pattern>/Numerology</url-pattern>
+
+	</servlet-mapping>
+</web-app>

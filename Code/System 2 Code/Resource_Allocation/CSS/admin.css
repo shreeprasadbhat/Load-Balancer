@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+/* ------ general
+-----------------------------------------------*/
+
+html, body {
+padding:0;
+margin:0;
+}
+
+body {
+  
+}
+
+.menu {
+position:absolute;
+top:50%;
+left:10px;
+
+padding-top:0px;
+margin-top:-140px;
+}
+
+.menu a {
+display:block;
+text-decoration:none;
+font-family:'PT Sans Narrow', sans-serif;
+font-size:25px;
+position:relative;
+height:44px;
+width:180px;
+color:#eee;
+}
+
+.menu a span {
+position:absolute;
+top:0;
+left:0;
+-webkit-transition:all .5s ease;
+-moz-transition:all .5s ease;
+-o-transition:all .5s ease;
+-ms-transition:all .5s ease;
+transition:all .5s ease;
+}
+
+.menu .shadow {
+text-shadow: 0 0 4px #8E2323;
+}
+
+.menu .blur {
+color:white;
+text-shadow:0 0 4px #2b2b2b;
+opacity:.6;
+}
+
+a {
+color:#eee;
+}
+
+#main_container {
+  
+}
+
+.clear:after { /*clear-fix*/
+  content: ""; 
+  display: block;
+  clear: both;
+}
+
+#left_container {
+  width: 720px;
+  float: left;
+  margin-right: 30px;
+  margin-left: 5px;
+  margin-bottom: 30px;/*margin: 0 30px 30px 5px;*/
+}
+
+#logo {
+  margin: 0px;
+  padding: 0px;  
+}
+
+.logo_link {
+  display: block;
+ 	
+  background: url("../images/header.jpg") no-repeat ;  
+
+  height: 131px;
+}
+
+
+
+#featured {
+  
+
+  margin: 50px 0px 0px 200px;
+  width: 719px;
+ 
+}
+
+.feat_left
+{
+  float:left;
+  padding-left: 0px;
+   
+  
+  
+   width: 700px;
+   height:300px;
+   -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    border-color:white;
+    border:thick;
+  border-bottom-color:white;
+  border-spacing: 10em;
+}
+
+#featured h1 {
+  background: url("images/icon1.png") no-repeat center left; 
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+
+#featured ul {
+  padding: 34px 0 0 20px;
+}
+
+#featured ul li {
+  display: inline;
+}
+
+#featured ul li a {
+  padding: 5px 17px 10px 13px;
+  margin-left: 2px;
+  color: #536f77;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#featured ul li a:hover 
+{ 
+  padding: 5px 17px 10px 13px;
+  margin-left: 2px;
+  color: #516e75;
+}
+
+.featured_content {
+  margin: 13px 0 0 15px;
+}
+
+
+
+.featured_content ol {
+  margin: 7px 10px 0 50px;
+  width: 250px;
+}
+
+.featured_content ol li {
+  padding: 5px 0 5px 20px;
+  background: url("images/icon2.png") no-repeat center left;  
+}
